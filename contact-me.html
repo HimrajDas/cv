@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Me</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>My Contact Details</h1>
     <p>My Address:- Guwahati, Jayanagar</p>
     <p>Phone Number:- +917636087597</p>
     <p>himraj.webuse001@gmail.com</p>
-    
-</body>
+    <hr>
+    <form action="mailto:himraj.webuse001@gmail.com" method="post" enctype="text/plain">
+      <label>Your Name:</label><br />
+      <input type="text" name="Your Name"/><br />
+      <label>Email:</label><br />
+      <input type="email" name="Your Email"/><br />
+      <label>Your Message:</label><br />
+      <textarea name="Your Message" id="" cols="30" rows="10"></textarea><br />
+      <input type="submit" /><br />
+    </form>
+  </body>
 </html>
